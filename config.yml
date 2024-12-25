@@ -1,4 +1,5 @@
-baseURL: "https://graugris.icu/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://graugris.icu/" 
+# if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: DMC
 paginate: 5
 theme: hugo-PaperMod
@@ -15,9 +16,14 @@ pygmentsUseClasses: true
 
 hasCJKLanguage: true
 
+
+
+
+
 paginate: 5
 
-permalinks: #浏览器链接显示方式
+#浏览器链接显示方式
+permalinks: 
     post: /:year/:slug/
     page: /:slug/
 
@@ -71,13 +77,14 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "“梦想是实现旺仔牛奶自由。”我小小的互联网栖息地"
-    author: 呆呆
+    env: production 
+    # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "dmc劳动成果展示板"
+    author: 44
     # author: ["Me", "You"] # multiple authors
 
     footer:
-        since: 2022
+        since: 2024
         customText: 2024
 
     defaultTheme: auto
@@ -101,14 +108,14 @@ params:
        
 
     homeInfoParams:
-        Title: "MOMO"
+        Title: "Devil May Cry资料馆"
         Content: >
-            You're my god-given solace.
+            第99道墙。
 
     socialIcons:
-        - name: Mastodon
+        - name: weibo
           url: https://o3o.ca/@mohari
-        - name: Rss
+        - name: bilibili
           url: "index.xml"
     comments: 
       enabled: true
