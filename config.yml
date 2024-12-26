@@ -1,4 +1,4 @@
-baseURL: "https://graugris.icu/" #绑定的域名 #if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://devilmatescry.keepdying44.icu" #绑定的域名 #if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Devil Mates Cry
 paginate: 5 # 首页每页显示的文章数
 theme: hugo-PaperMod # 主题名称，和themes文件夹下的一致
@@ -104,9 +104,8 @@ params:
 
     socialIcons:
         - name: weibo
-          url: https://o3o.ca/@mohari
-        - name: bilibili
-          url: "index.xml"
+          url: https://weibo.com/u/7892489874
+        
     comments: 
       enabled: true
       recordIP: false
