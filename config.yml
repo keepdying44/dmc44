@@ -1,8 +1,7 @@
-baseURL: "https://graugris.icu/" 
-# if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: DMC
-paginate: 5
-theme: hugo-PaperMod
+baseURL: "https://graugris.icu/" #绑定的域名 #if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Devil Mates Cry
+paginate: 5 # 首页每页显示的文章数
+theme: hugo-PaperMod # 主题名称，和themes文件夹下的一致
 defaultContentlanguage: zh
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -10,28 +9,23 @@ buildDraft: false
 showDraft: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
+enableEmoji: true # 允许使用 Emoji 表情
 pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
-hasCJKLanguage: true
-
-
-
-
+hasCJKLanguage: true # 自动检测是否包含中文日文韩文
 
 paginate: 5
 
-#浏览器链接显示方式
-permalinks: 
-    post: /:year/:slug/
+permalinks: #浏览器链接显示方式
+    post: /:slug/
     page: /:slug/
 
 
 minify:
     disableXML: true
-    # minifyOutput: true
-
+  # minifyOutput: true
+ 
 languages:
     zh:
         languageName: "Chinese"
@@ -42,17 +36,17 @@ languages:
           series: series
         profileMode:
           enabled: true
-          title: MOMO
-          subtitle: You're my god-given solace.
-          imageURL: /avatar.png
+          title: DMC中文资料站
+          subtitle: 第99道墙
+          imageURL: /img/avatar.gif
           buttons:
-            - name: Posts
+            - name: 漫画
               url: /posts
-            - name: Movies
+            - name: 动画
               url: /movies
-            - name: Books
+            - name: 小说
               url: /books
-            - name: Games
+            - name: 设定集
               url: /games
         menu:
             main:
@@ -77,9 +71,8 @@ outputs:
         - JSON
 
 params:
-    env: production 
-    # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "dmc劳动成果展示板"
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "DMC中文资料站"
     author: 44
     # author: ["Me", "You"] # multiple authors
 
@@ -108,7 +101,7 @@ params:
        
 
     homeInfoParams:
-        Title: "Devil May Cry资料馆"
+        Title: "Devil May Cry资料站"
         Content: >
             第99道墙。
 
