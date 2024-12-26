@@ -41,21 +41,18 @@ languages:
           imageURL: /img/avatar.gif
           buttons:
             - name: 漫画
-              url: /posts
+              url: /manga
             - name: 动画
-              url: /movies
+              url: /anime
             - name: 小说
-              url: /books
+              url: /novel
             - name: 设定集
-              url: /games
+              url: /artbook
         menu:
             main:
               - name: Archives
                 url: archives
                 weight: 5
-              - name: Friends
-                url: friends/
-                weight: 9
               - name: About
                 url: about
                 weight: 8
@@ -68,7 +65,7 @@ outputs:
     home:
         - HTML
         - RSS
-        - JSON
+        - JSON 
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
