@@ -35,5 +35,5 @@ showtoc: false
 
 ## 联系我
 
-- 提问箱：
-- 微博：
+- [提问箱](https://box.n3ko.cc/_/keepdying44?continueFlag=aab06073641f600f2a62d6928b1a4ffa")
+- [微博](https://weibo.com/u/7892489874)
