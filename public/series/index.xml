@@ -5,12 +5,10 @@
     <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on Devil Mates Cry</description>
     <image>
-      <title>Devil Mates Cry</title>
       <url>http://localhost:1313/favicon.png</url>
       <link>http://localhost:1313/favicon.png</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>zh</language>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

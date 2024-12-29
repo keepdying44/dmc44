@@ -1,8 +1,8 @@
 - id: prev_page
-  translation: "上一页"
+  translation: "Prev"
 
 - id: next_page
-  translation: "下一页"
+  translation: "Next"
 
 - id: read_time
   translation:
@@ -15,7 +15,7 @@
     other: "{{ .Count }} 字"
 
 - id: toc
-  translation: "目录"
+  translation: "Table of Contents"
 
 - id: translations
   translation: "语言"
@@ -30,4 +30,4 @@
   translation: "复制"
 
 - id: code_copied
-  translation: "已复制"
+  translation: "已复制！"

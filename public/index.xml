@@ -5,19 +5,58 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on Devil Mates Cry</description>
     <image>
-      <title>Devil Mates Cry</title>
       <url>http://localhost:1313/favicon.png</url>
       <link>http://localhost:1313/favicon.png</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 13:32:46 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>棕与绿的圣诞树</title>
+      <link>http://localhost:1313/novels/2024/241220/%E6%A3%95%E4%B8%8E%E7%BB%BF%E7%9A%84%E5%9C%A3%E8%AF%9E%E6%A0%91/</link>
+      <pubDate>Thu, 26 Dec 2024 13:32:46 +0000</pubDate>
+      
+      <guid>http://localhost:1313/novels/2024/241220/%E6%A3%95%E4%B8%8E%E7%BB%BF%E7%9A%84%E5%9C%A3%E8%AF%9E%E6%A0%91/</guid>
+      <description>5dv，或许只是个简单的、普通的圣诞节。灵感源自文末的那棵圣诞树，我觉得很但丁于是写了！</description>
+    </item>
+    
+    <item>
+      <title>DV2024霜夜颂曲私人企划</title>
+      <link>http://localhost:1313/novels/2024/241220/2024%E9%9C%9C%E5%A4%9C%E9%A2%82%E6%9B%B2%E9%A2%84%E5%91%8A/</link>
+      <pubDate>Fri, 20 Dec 2024 20:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/novels/2024/241220/2024%E9%9C%9C%E5%A4%9C%E9%A2%82%E6%9B%B2%E9%A2%84%E5%91%8A/</guid>
+      <description>风灵月隐</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/about/</guid>
       <description>about</description>
     </item>
+    
+    
+    
+    <item>
+      <title>Novels</title>
+      <link>http://localhost:1313/novel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/novel/</guid>
+      <description>novel</description>
+    </item>
+    
   </channel>
 </rss>
